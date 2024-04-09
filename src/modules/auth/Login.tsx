@@ -4,9 +4,11 @@ import { Button, Modal } from "@/components/shared";
 
 const Login = () => {
   return (
-    <div>
-      <Button />
-      <Modal />
+    <div className="flex items-center justify-center h-screen">
+      <div>
+        <Button />
+        <Modal />
+      </div>
     </div>
   );
 };

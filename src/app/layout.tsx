@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,7 +10,6 @@ export const viewport = {
 export const metadata = {
   title: "Next Js App",
   description: "Next Js app simple setup",
-  manifest: "/static/manifest.json",
 };
 
 export default function RootLayout({
